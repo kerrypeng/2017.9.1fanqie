@@ -1,0 +1,92 @@
+
+/* 开头的样式  */
+.box1{
+  text-align: center;
+  padding-top: 100rpx;
+  padding-bottom: 32rpx;
+}
+/*大标题的样式  */
+.t1{
+  font-family: 苹方;
+  font-size: 40rpx;
+}
+/* 小标题的样式  */
+
+.box2{
+  text-align: center;
+}
+.t2{
+  font-family: 苹方;
+  font-size: 26rpx;
+  color: #C0C0C0;
+}
+
+/* 图片盒子的整体样式  */
+.bigbox{
+  padding-top: 32rpx;
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* 图片1的整体样式  */
+.boss1{
+  width: 128rpx;
+  padding: 50rpx;
+  text-align: center;
+}
+/* 图片1的样式  */
+.img1{
+  width: 64rpx;
+  height: 64rpx;
+}
+/* 图片1的文字的样式  */
+.text1{
+  font-family: 苹方;
+  font-size: 32rpx;
+}
+
+.bb1{
+  border-bottom: 1px solid #eeeeee;
+}
+
+.bb2{
+  border-right: 1px solid #eeeeee;
+}
+
+.t3{
+  text-align: center;
+  border: 1px solid #C8D0E0;
+  width: 300rpx;
+  margin: 80rpx auto 0 auto;
+  padding: 30rpx 0 30rpx 0;
+  border-radius: 100rpx;
+  color: #52596B;
+}
+
+  .w1{
+    /* 盒子下面的边框  */
+    border-bottom: 2px solid #33A7FF;
+  }
+
+  .w2{
+    border-bottom: 2px solid #5AB729;
+  }
+
+  .w3{
+    border-bottom: 2px solid #FFA21F;
+  }
+
+.w4{
+  border-bottom: 2px solid #4CCFFF;
+}
+
+.w5{
+  border-bottom: 2px solid #923EBD;
+}
+
+.w6{
+  border-bottom: 2px solid #FF4258;
+}

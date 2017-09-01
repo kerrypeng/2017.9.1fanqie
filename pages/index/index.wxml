@@ -1,0 +1,103 @@
+
+
+
+<!-- 文字部分的盒子  -->
+<view>
+<!-- 文字1  -->
+<view class="box1">
+<text class='t1'>选择一个任务</text>
+</view>
+
+<!-- 文字2  -->
+<view class='box2'>
+<text class='t2'>在接下来的25分钟，专注做这件事</text>
+</view>
+
+</view>
+
+<!-- 放图片的大盒子  -->
+<view class='bigbox'>
+
+<!-- 盒子1  -->
+<view data-id='1' class="bb1,bb2,boss1, {{ aaa==1 ? 'w1':''}}" bindtap='fff'>
+<!--图片的盒子  -->
+<view class='ib1'>
+<image class='img1' src='/image/1.jpg'></image>
+</view>
+<!-- 文字的盒子  -->
+<text class='text1'>工作</text>
+</view>
+
+<!-- 盒子2  -->
+<view data-id='2' class="bb1,bb2,boss1, {{ aaa==2 ? 'w2':'' }}"bindtap='fff'>
+<view>
+<image class='img1' src='/image/2.png'></image>
+</view>
+<view>
+<text class='text1'>学习</text>
+</view>
+</view>
+
+<!-- 盒子3  -->
+<view data-id='3'  class="bb1,boss1, {{aaa== 3 ? 'w3':''}} " bindtap='fff'>
+<view>
+<image class='img1' src='/image/3.png'></image>
+</view>
+<view>
+<text class='text1'>思考</text>
+</view>
+</view>
+
+<!-- 盒子4  -->
+<view data-id='4' class="bb2,boss1,{{aaa== 4 ? 'w4':''}}" bindtap='fff'>
+
+<view>
+<image class='img1' src='/image/4.png'></image>
+</view>
+
+<view>
+<text class='text1'>写作</text>
+</view>
+
+</view>
+
+<!-- 盒子5  -->
+
+<view data-id='5' class="bb2,boss1, {{aaa==5 ? 'w5':''}}" bindtap='fff'>
+
+<view >
+<image class='img1' src='/image/5.png'></image>
+</view>
+
+<view>
+<text class='text1'>运动</text>
+</view>
+
+</view>
+
+<!-- 盒子6  -->
+
+<view data-id='6' class="boss1,{{aaa==6 ? 'w6':''}}" bindtap='fff'>
+
+<view>
+<image class='img1' src='/image/6.png'></image>
+</view>
+
+<view>
+ <text class='text1'>阅读</text>
+ </view>
+
+ </view>
+
+<!--  跳转盒子  -->
+<view class='t3'>
+<navigator url='../new/new'>开始计时</navigator>
+</view>
+
+
+
+
+
+
+
+</view>
